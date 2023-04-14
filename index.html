@@ -127,9 +127,9 @@
 
                         <h1 class="content-item-1" > 
                             <div class="welcome-content">
-                                <div class="home-cont infor-sty">WELCOME</div>  
-                                <div class="home-cont infor-sty">TO</div>
-                                <div class="home-cont infor-sty">MZAMOMTSHA PRIMARY SCHOOL</div>
+                                <div class="popup" onclick="myFunction()">Click me!
+                                    <span class="popuptext" id="myPopup">WELCOME TO MZAMOMTSHA PRIMARY SCHOOL</span>
+                                  </div>
                             </div> 
                         </h1>
                         <h3 class="content-item-2 infor-sty">ENTER TO LEARN. LEAVE TO SERVE</h3>
@@ -144,12 +144,8 @@
 
                         <h1 class="content-item-1" > 
                             <div class="welcome-content">
-                                <div class="home-cont infor-sty">WELCOME</div>  
-                                <div class="home-cont infor-sty">TO</div>
-                                <div class="home-cont infor-sty">MZAMOMTSHA PRIMARY SCHOOL</div>
                             </div> 
                         </h1>
-                        <h3 class="content-item-2 infor-sty">ENTER TO LEARN. LEAVE TO SERVE</h3>
                     </div>
                 </div>
 
@@ -161,12 +157,8 @@
 
                         <h1 class="content-item-1" > 
                             <div class="welcome-content">
-                                <div class="home-cont infor-sty">WELCOME</div>  
-                                <div class="home-cont infor-sty">TO</div>
-                                <div class="home-cont infor-sty">MZAMOMTSHA PRIMARY SCHOOL</div>
                             </div> 
                         </h1>
-                        <h3 class="content-item-2 infor-sty">ENTER TO LEARN. LEAVE TO SERVE</h3>
                     </div>
                 </div>
                 
@@ -178,12 +170,8 @@
 
                         <h1 class="content-item-1" > 
                             <div class="welcome-content">
-                                <div class="home-cont infor-sty">WELCOME</div>  
-                                <div class="home-cont infor-sty">TO</div>
-                                <div class="home-cont infor-sty">MZAMOMTSHA PRIMARY SCHOOL</div>
                             </div> 
                         </h1>
-                        <h3 class="content-item-2 infor-sty">ENTER TO LEARN. LEAVE TO SERVE</h3>
                     </div>
                 </div>
                 
@@ -195,12 +183,8 @@
 
                         <h1 class="content-item-1" > 
                             <div class="welcome-content">
-                                <div class="home-cont">WELCOME</div>  
-                                <div class="home-cont">TO</div>
-                                <div class="home-cont">MZAMOMTSHA PRIMARY SCHOOL</div>
                             </div> 
                         </h1>
-                        <h3 class="content-item-2" style="color: #ffff;">ENTER TO LEARN. LEAVE TO SERVE</h3>
                     </div>
                 </div>
                 
@@ -312,6 +296,13 @@
             //   dots[slideIndex-1].className += " active";
               setTimeout(showSlides, 6000); // Change image every 2 seconds
             }
+            
+// When the user clicks on <div>, open the popup
+    function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
             </script>
         <script src="app.js"></script>
     </body>
