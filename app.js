@@ -1,3 +1,7 @@
+/*Clickjack attack protection*/
+
+document.cookie="myCookie=myValue; SameSite=Strict ;Secure";
+
 /*Active Nav-link color change */
 
 const navLinks = document.querySelectorAll('.nav-link1');
